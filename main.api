@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Value</title>
+</head>
+<body>
+    <div id="valueContainer">Value will be displayed here</div>
+
+    <script>
+        function fetchValue() {
+          
+            var value = "Hhhhhhh";
+            document.getElementById("valueContainer").innerText = value;
+        }
+
+        // Call fetchValue function when the page loads
+        window.onload = fetchValue;
+    </script>
+</body>
+</html>
